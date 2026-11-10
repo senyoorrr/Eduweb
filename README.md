@@ -10,12 +10,13 @@
 
 ### 🛠️ Technologies & Tools
 
-**- HTML**
+** - HTML**
 - CSS
 - JavaScript
 - React
 - Git & GitHub
 - VS Code
+[x] Akkaunt ochdim
 
 ### 📫 Contact Me
 
