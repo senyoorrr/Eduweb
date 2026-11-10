@@ -16,7 +16,7 @@
 - React
 - Git & GitHub
 - VS Code
-[x] Akkaunt ochdim
+
 
 ### 📫 Contact Me
 
