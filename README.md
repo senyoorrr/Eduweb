@@ -1,5 +1,5 @@
 
-# 👋 Hi, I'm samariddin !
+# 👋 Hi, I'm Samariddin !
 
 ### 💻 Frontend Developer | Student | Programmer
 
