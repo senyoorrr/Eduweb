@@ -10,7 +10,7 @@
 
 ### 🛠️ Technologies & Tools
 
-- HTML
+**- HTML**
 - CSS
 - JavaScript
 - React
