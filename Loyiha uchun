@@ -1,1 +1,11 @@
+# EduWeb — Online darslik platformasi
 
+EduWeb — o‘quvchilar va o‘qituvchilar uchun mo‘ljallangan onlayn ta’lim platformasi. Platforma orqali o‘quvchilar PDF formatidagi darsliklarni o‘qishi, bilimlarini testlar orqali sinashi mumkin. O‘qituvchilar esa darsliklar yuklash va testlar yaratish imkoniyatiga ega bo‘ladi.
+
+## Jamoa a'zolarining vazifalari
+
+- **Loyiha rahbari:** Loyihani boshqarish va vazifalarni taqsimlash.
+- **Frontend dasturchi:** Platformaning foydalanuvchi interfeysini yaratish (HTML, CSS, JavaScript).
+- **Backend dasturchi:** Server qismini, ro‘yxatdan o‘tish va tizimga kirish funksiyalarini ishlab chiqish.
+- **Ma'lumotlar bazasi mutaxassisi:** Foydalanuvchilar, darsliklar va testlar ma'lumotlarini saqlash.
+- **Testlovchi:** Platformani tekshirish va xatolarni aniqlash.
