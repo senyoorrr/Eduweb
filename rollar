@@ -1,0 +1,68 @@
+# EduWeb — Rollar va huquqlar
+
+EduWeb platformasida foydalanuvchilar uchta asosiy rolga bo‘linadi: Talaba, O‘qituvchi va Administrator.
+
+## 1. Rollar va imkoniyatlar
+
+| Imkoniyatlar | Talaba | O‘qituvchi | Administrator |
+|---|:---:|:---:|:---:|
+| Tizimga kirish | ✅ | ✅ | ✅ |
+| Darsliklarni ko‘rish | ✅ | ✅ | ✅ |
+| PDF yuklash | ❌ | ✅ | ✅ |
+| PDF o‘qish | ✅ | ✅ | ✅ |
+| Test ishlash | ✅ | ❌ | ❌ |
+| Test yaratish | ❌ | ✅ | ✅ |
+| Testlarni tahrirlash | ❌ | ✅ | ✅ |
+| Natijalarni ko‘rish | O‘z natijasi | O‘z testlari natijasi | Barcha natijalar |
+| Foydalanuvchilarni boshqarish | ❌ | ❌ | ✅ |
+| Rollarni boshqarish | ❌ | ❌ | ✅ |
+
+## 2. Talaba (Student)
+
+- Tizimga ro‘yxatdan o‘tish va kirish.
+- PDF darsliklarni ko‘rish va o‘qish.
+- Testlarni ishlash va topshirish.
+- O‘z test natijalarini ko‘rish.
+- Shaxsiy profilini boshqarish.
+
+## 3. O‘qituvchi (Teacher)
+
+- Tizimga kirish.
+- PDF darsliklarni yuklash.
+- O‘z darsliklarini tahrirlash va o‘chirish.
+- Talabalar uchun test yaratish.
+- Test savollarini tahrirlash.
+- O‘z testlari natijalarini ko‘rish.
+
+## 4. Administrator (Admin)
+
+- Foydalanuvchilarni boshqarish.
+- Yangi foydalanuvchilarni qo‘shish va o‘chirish.
+- Foydalanuvchilar rollarini belgilash.
+- Darsliklarni boshqarish.
+- Testlarni nazorat qilish.
+- Barcha natijalarni ko‘rish.
+
+## 5. Xavfsizlik qoidalari
+
+1. Har bir foydalanuvchi faqat o‘z roliga tegishli huquqlardan foydalanadi.
+2. Talaba faqat o‘z natijalarini ko‘ra oladi.
+3. O‘qituvchi faqat o‘ziga tegishli darslik va testlarni boshqaradi.
+4. Administrator barcha foydalanuvchilar va rollarni boshqaradi.
+5. Parollar xeshlangan holda saqlanadi.
+6. Ruxsatsiz foydalanuvchilarning ma'lumotlarga kirishi taqiqlanadi.
+
+## 6. API endpointlar
+
+| HTTP metod | Endpoint | Vazifasi |
+|---|---|---|
+| POST | `/api/auth/login` | Tizimga kirish |
+| GET | `/api/books` | Darsliklar ro‘yxati |
+| GET | `/api/books/{id}` | Darslikni ko‘rish |
+| POST | `/api/books` | Darslik yuklash |
+| POST | `/api/tests` | Test yaratish |
+| POST | `/api/tests/{id}/submit` | Testni topshirish |
+| GET | `/api/results/my` | O‘z natijalarini ko‘rish |
+| GET | `/api/users` | Foydalanuvchilarni ko‘rish |
+
+**Eslatma:** API endpointlar namunaviy bo‘lib, amaldagi dasturga moslashtiriladi.
